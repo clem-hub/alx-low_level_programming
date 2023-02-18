@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - entry point
+/**
+ * main - Entry point
  *
- * description: This program will assign a random
+ * Description: This program will assign a random
  * number to the variable n each time it is executed
  *
- * return value is zero
+ * Return: Always 0
  */
 int main(void)
 {
