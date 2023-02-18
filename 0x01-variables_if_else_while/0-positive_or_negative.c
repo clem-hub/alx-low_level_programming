@@ -4,6 +4,10 @@
 
 /*
  * main - entry point
+ *
+ * description: This program will assign a random
+ * number to the variable n each time it is executed
+ *
  * return value is zero
  */
 int main(void)
@@ -20,7 +24,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else(n > 0)
+	else(n > 0);
 	{
 		printf("%d is positive\n", n);
 	}
