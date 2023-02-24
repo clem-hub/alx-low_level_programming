@@ -5,11 +5,9 @@
  * @a: integer
  * @b: integer
  *
- * Return: always 0
+ * Return: product of two integers
  */
 int mul(int a, int b)
 {
-	int multiply;
-
-	multiply = a * b;
+	return (a * b);
 }
