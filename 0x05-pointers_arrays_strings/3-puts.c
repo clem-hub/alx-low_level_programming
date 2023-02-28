@@ -4,9 +4,9 @@
  * _puts - prints a string, followed by a new line, to stdout
  * @str: string
  *
- * Return: 0
+ * Return: void
  */
-int _puts(char *str)
+void _puts(char *str)
 {
 	int i;
 
@@ -15,4 +15,5 @@ int _puts(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
+
 }
