@@ -2,10 +2,8 @@
 
 /**
  * cap_string -  capitalizes all words of a string.
- * Separators of words: space, tabulation,
- * new line, ,, ;, ., !, ?, ", (, ), {, and }
  *
- * Return:
+ * Return: string array
  */
 char *cap_string(char *)
 {
