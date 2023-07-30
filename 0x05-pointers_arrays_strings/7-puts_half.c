@@ -13,12 +13,12 @@
 void puts_half(char *str)
 {
 	int i;
-	int j = _strlen(str); /* back to character before null character */
+	int j = _strlen(str);
 	int n;
 
 	if (j % 2 != 0) /* is string length odd */
 	{
-		n = (j - 1) / 2;
+		n = (j / 2) + 1;
 	}
 	else
 	{
