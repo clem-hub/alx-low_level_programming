@@ -1,0 +1,4 @@
+/* Do not show these files */
+
+*.c
+*.o
